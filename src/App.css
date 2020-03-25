@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cardPrimary {
+  margin-top: 10px;
+  flex: 1;
+  text-align: center;
+  height: 600px;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.cardPrimary:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.alinharButton {
+  position: relative;
+  bottom: 0;
+}
+
+.pergunta {
+  font-size: 50px;
+}
+
+.banner {
+  width:400px;
+  height:100px;
+  background-color: #999999;
+  margin: auto;
 }
